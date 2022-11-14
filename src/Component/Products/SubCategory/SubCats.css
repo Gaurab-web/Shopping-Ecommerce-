@@ -1,0 +1,146 @@
+.sub-cat{
+    border-bottom: 1px solid rgb(163, 163, 163);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.img-box{
+    width:100%;
+    height:280px;
+}
+@media(max-width:1399px){
+    .img-box{
+        width:100%;
+        height:200px;
+    }
+}
+@media(max-width:1199px){
+    .img-box{
+        width:100%;
+        height:150px;
+    }
+}
+@media(max-width:991px){
+    .img-box{
+        width:100%;
+        height:200px;
+    }
+    .cat-title{
+        font-size:14px;
+    }
+}
+@media(max-width:768px){
+    .img-box{
+        width:100%;
+        height:250px;
+    }
+}
+@media(max-width:443px){
+    .img-box{
+        width:100%;
+        height:220px;
+    }
+}
+@media(max-width:425px){
+    .img-box{
+        width:100%;
+        height:170px;
+    }
+}
+@media(max-width:335px){
+    .img-box{
+        width:100%;
+        height:170px;
+    }
+}
+.sub-img{
+    width:100%;
+    height:100%;
+    object-fit: cover!important;
+}
+.img-card{
+    width:100%!important;
+    height: auto!important;
+}
+.pro-col{
+    border:1px solid #ccc;
+    transition: 250ms transform linear;
+}
+.pro-col:hover{
+    box-shadow: 0 0 10px #ccc;
+    transform: scale(1.04);
+}
+.pro-desc{
+    flex-direction: column;
+    align-items: center;
+}
+.pro-desc a{
+    text-decoration: none;
+}
+.cat-desc{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+@media(max-width:768px){
+    .cat-sec{
+        flex-direction: row;
+        justify-content: center!important;
+    }
+    .search{
+        display: none;
+    }
+    .search-icon{
+        text-align: right;
+    }
+    .search-logo{
+        width:26px;
+        height:26px;
+    }
+
+}
+@media(min-width:768px){
+    .search-icon{
+        display: none;
+    }
+}
+.button-pro{
+    text-align: center;
+}
+.price{
+    font-size: 20px;
+}
+.info{
+    padding-top:-10px;
+}
+.input-group-text{
+    background-color: #fff!important;
+    border: 0!important;
+}
+@media(max-width:576px){
+    .cat-sec{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:530px){
+    .cat-title{
+        font-size:12px;
+    }
+    .btn-view{
+        font-size: 13px!important;
+    }
+}
+@media(max-width:375px){
+    .cat-title{
+        font-size:8px;
+    }
+    .btn-view{
+        font-size: 10px!important;
+        padding:5px 8px!important;
+    }
+    .price{
+        font-size: 12px;
+    }
+    .img-box{
+        width:100%;
+        height:120px;
+    }
+}

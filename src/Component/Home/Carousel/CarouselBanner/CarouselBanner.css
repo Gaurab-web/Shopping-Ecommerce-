@@ -1,0 +1,12 @@
+.banner-img{
+    height: 56vh;
+    object-fit:cover;
+}
+@media(max-width:576px){
+    .banner-img{
+        height: 30vh;
+    }
+}
+.carousel-indicators{
+    display: none!important;
+}

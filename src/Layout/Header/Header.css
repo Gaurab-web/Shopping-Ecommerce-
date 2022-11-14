@@ -1,0 +1,65 @@
+
+.link-sec{
+    justify-content: space-between!important;
+}
+.user-icon{
+    margin-top:-5px;
+    width:20px;
+    height:20px;
+}
+.nav-link{
+    border-radius: 10px!important;
+    margin-right:8px;
+    padding:8px 13px!important;
+}
+.nav-link:hover{
+    border-bottom:1px solid #f7b928!important ;
+}
+.nav-link:focus{
+    border-bottom:1px solid #f7b928!important ;
+}
+.home-sec{
+    border-bottom: 1px solid #ccc;
+}
+.home-icon{
+    margin-top:-5px;
+}
+
+.head-img{
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+}
+.user{
+    color:#bbb;
+    padding-top:8px;
+    margin:0;
+}
+.log-out{
+    text-align: right!important;
+}
+@media(max-width:991px){
+    .home-sec{
+        border-bottom: 0px;
+    }
+    .head-img{
+        margin-bottom:6px;
+    }
+    .nav-link{
+        border-bottom:1px solid rgba(204, 204, 204, 0.164);
+    }
+}
+.sign-up:hover{
+    background-color: #f7b928!important;
+    border-radius: 10px!important;
+    color:#000!important;
+}
+.login:hover{
+    background-color: #f7b928!important;
+    border-radius: 10px!important;
+    color:#000!important; 
+}
+.cart{
+    margin-top:-5px;
+    width:20px!important;
+    height:20px!important;
+}

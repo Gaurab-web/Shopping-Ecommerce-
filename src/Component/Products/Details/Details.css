@@ -1,0 +1,171 @@
+.pro-img{
+    width:100%;
+    height: auto;
+}
+.category{
+    font-size:35px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(107, 107, 107);
+}
+.title{
+    margin-top:-20px;
+    font-size:40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.rating{
+    margin-top:-10px;
+}
+.rating-num{
+    font-size: 18px;
+    vertical-align: text-top;
+}
+.price-detail{
+    font-size: 45px;
+    font-weight: 600;
+}
+.description{
+    font-family: 'Rajdhani', sans-serif;
+}
+@media(max-width:991px){
+    .category{
+        font-size:25px;
+    }
+    .title{
+        margin-top:-20px;
+        font-size:30px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .rating{
+        margin-top:-10px;
+    }
+    .logo{
+        width:16px;
+        height:16px;
+    }
+    .rating-num{
+        font-size: 18px;
+        vertical-align: text-top;
+    }
+    .price-detail{
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .description{
+        font-size: 12px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .btn-sec{
+        justify-content: space-between;
+    }
+    .btn-lg{
+        padding:8px 15px!important;
+        font-size:1.2rem!important;
+    }
+}
+@media(max-width:768px){
+    .category{
+        font-size:15px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(107, 107, 107);
+    }
+    .title{
+        margin-top:-20px;
+        font-size:20px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .rating{
+        margin-top:-10px;
+    }
+    .logo{
+        width:10px;
+        height:10px;
+    }
+    .rating-num{
+        font-size: 10px;
+        vertical-align: text-bottom;
+    }
+    .price-detail{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .offer{
+        font-size: 9px;
+        padding: 1px 8px;
+    }
+    .description{
+        font-size: 10px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .btn-sec{
+        justify-content: space-between;
+    }
+    .btn-lg{
+        padding:5px 10px!important;
+        font-size:1rem!important;
+    }
+}
+@media(max-width:501px){
+    .btn-lg{
+        font-size:0.8rem!important;
+    }
+    .offer{
+        font-size: 6px;
+        padding: 1px 5px;
+    }
+}
+@media(max-width:437px){
+    .category{
+        font-size:10px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(107, 107, 107);
+    }
+    .title{
+        margin-top:-20px;
+        font-size:15px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .rating{
+        margin-top:-10px;
+    }
+    .logo{
+        width:7px;
+        height:7px;
+    }
+    .rating-num{
+        font-size: 10px;
+        vertical-align: text-bottom;
+    }
+    .price-detail{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .offer{
+        font-size: 4px;
+        padding: 1px 3px;
+    }
+    .description{
+        font-size: 8px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .btn-lg{
+        font-size:0.6rem!important;
+    }
+}
+@media(max-width:374px){
+    .btn-lg{
+        font-size:0.5rem!important;
+    }
+}
+@media(max-width:343px){
+    .price-detail{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .offer{
+        font-size: 2px;
+        padding: 1px 1px;
+    }
+    .btn-lg{
+        font-size:0.4rem!important;
+    }
+}

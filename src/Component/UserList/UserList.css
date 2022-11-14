@@ -1,0 +1,160 @@
+.add-user{
+    text-align: right;
+}
+.user-info{
+    border-bottom: 1px solid #ddd;
+}
+.user-img{
+    width:40%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-list{
+    flex-direction: column;
+}
+.user-name-1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgba(40, 40, 40, 0.805);
+    margin-top:8px;
+}
+.user-design-1{
+    font-family: 'Rajdhani', sans-serif;
+    color:rgba(36, 36, 36, 0.736);
+    margin-top:-10px;
+}
+@media(max-width:1400px){
+    .user-name-1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color:rgba(40, 40, 40, 0.805);
+        margin-top:5px;
+    }
+    .user-design-1{
+        font-family: 'Rajdhani', sans-serif;
+        color:rgba(36, 36, 36, 0.736);
+        margin-top:-10px;
+    }
+}
+@media(max-width:1200px){
+    .user-name-1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color:rgba(40, 40, 40, 0.805);
+        margin-top:13px;
+    }
+    .user-design-1{
+        font-family: 'Rajdhani', sans-serif;
+        color:rgba(36, 36, 36, 0.736);
+        margin-top:-10px;
+    }
+}
+.email{
+    font-family: 'Rajdhani', sans-serif;
+    color:rgba(36, 36, 36, 0.736);
+    font-size:17px;
+    margin-top:10px;
+}
+.pic-img{
+    text-align: center;
+}
+.user-btn{
+    text-align: right;
+}
+.edit-btn{
+    width:20px;
+    height:20px;
+    margin-right:20px;
+    margin-top:10px;
+}
+.delete-btn{
+    width:20px;
+    height:20px;
+    margin-top:10px;
+}
+.user-btn a{
+    text-decoration: none;
+    color:#000;
+}
+.user-btn a:hover{
+    color:rgba(0, 0, 0, 0.699);
+}
+@media(max-width:1200px){
+    .user-name-1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color:rgba(40, 40, 40, 0.805);
+        margin-top:13px;
+    }
+    .user-design-1{
+        font-family: 'Rajdhani', sans-serif;
+        color:rgba(36, 36, 36, 0.736);
+        margin-top:-10px;
+    }
+    .email{
+        font-family: 'Rajdhani', sans-serif;
+        color:rgba(36, 36, 36, 0.736);
+        font-size:17px;
+        margin-top:14px;
+    }
+    .edit-btn{
+        width:20px;
+        height:20px;
+        margin-right:20px;
+        margin-top:14px;
+    }
+    .delete-btn{
+        width:20px;
+        height:20px;
+        margin-top:14px;
+    }
+}
+@media(max-width:991px){
+    .user-name-1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color:rgba(40, 40, 40, 0.805);
+        margin-top:2px;
+    }
+    .user-design-1{
+        font-family: 'Rajdhani', sans-serif;
+        color:rgba(36, 36, 36, 0.736);
+        margin-top:-10px;
+    }
+    .email{
+        font-family: 'Rajdhani', sans-serif;
+        color:rgba(36, 36, 36, 0.736);
+        font-size:17px;
+        margin-top:5px;
+    }
+    .edit-btn{
+        width:20px;
+        height:20px;
+        margin-right:20px;
+        margin-top:10px;
+    }
+    .delete-btn{
+        width:20px;
+        height:20px;
+        margin-top:10px;
+    }
+}
+@media(max-width:768px){
+    .user-info{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .user-btn{
+        text-align: center;
+    }
+    .pic-img{
+        margin-bottom:20px;
+    }
+}

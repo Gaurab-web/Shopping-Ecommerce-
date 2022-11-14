@@ -1,0 +1,46 @@
+{
+  "usersData": [
+    {
+      "id": 1,
+      "user_Fname": "Sayan",
+      "user_Lname": "Saha",
+      "designation": "Software Engineer",
+      "email": "sayan@gmail.com"
+    },
+    {
+      "user_Fname": "Gourav",
+      "user_Lname": "Das",
+      "designation": "Data Scientist",
+      "email": "gaurab@gmail.com",
+      "id": 2
+    },
+    {
+      "user_Fname": "Ratan",
+      "user_Lname": "Saha",
+      "designation": "Quality Engineer",
+      "email": "ratan@gmail.com",
+      "id": 3
+    },
+    {
+      "user_Fname": "Koushik",
+      "user_Lname": "Das",
+      "designation": "Software Engineer",
+      "email": "koushik123@gmail.com",
+      "id": 6
+    },
+    {
+      "user_Fname": "Poushali",
+      "user_Lname": "Banerjee",
+      "designation": "Network Engineer",
+      "email": "poushali897@gmail.com",
+      "id": 7
+    },
+    {
+      "user_Fname": "Srijani",
+      "user_Lname": "Seth",
+      "designation": "Software Tester",
+      "email": "srijani@gmail.com",
+      "id": 8
+    }
+  ]
+}
